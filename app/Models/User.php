@@ -36,4 +36,24 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function home_policy()
+    {
+        return $this->hasMany(HomePolicy::class);
+    }
+
+    public function auto_policy()
+    {
+        return $this->hasMany(AutoPolicy::class);
+    }
+
+    public function home_order()
+    {
+        return $this->hasMany(HomeOrder::class);
+    }
+
+    public function auto_order()
+    {
+        return $this->hasMany(AutoOrder::class);
+    }
 }

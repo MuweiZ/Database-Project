@@ -19,11 +19,11 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '4e8671d7be9056dcd04ddd9e8e15f9cc' => __DIR__ . '/..' . '/encore/laravel-admin/src/helpers.php',
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'b6ec61354e97f32c0ae683041c78392a' => __DIR__ . '/..' . '/scrivo/highlight.php/HighlightUtilities/functions.php',
-        '4e8671d7be9056dcd04ddd9e8e15f9cc' => __DIR__ . '/..' . '/encore/laravel-admin/src/helpers.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         'c23e8f96f2281c042292a30d2b903c29' => __DIR__ . '/../..' . '/bootstrap/helpers.php',
     );
@@ -108,6 +108,7 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         ),
         'J' => 
         array (
+            'Jxlwqq\\Quill\\' => 13,
             'JakubOnderka\\PhpConsoleHighlighter\\' => 35,
             'JakubOnderka\\PhpConsoleColor\\' => 29,
         ),
@@ -143,6 +144,10 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         array (
             'Cron\\' => 5,
             'Carbon\\' => 7,
+        ),
+        'B' => 
+        array (
+            'BeyondCode\\ErdGenerator\\' => 24,
         ),
         'A' => 
         array (
@@ -329,6 +334,10 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         array (
             0 => __DIR__ . '/..' . '/laravel/tinker/src',
         ),
+        'Jxlwqq\\Quill\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jxlwqq/quill/src',
+        ),
         'JakubOnderka\\PhpConsoleHighlighter\\' => 
         array (
             0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
@@ -409,6 +418,10 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
+        'BeyondCode\\ErdGenerator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -416,6 +429,14 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
     );
 
     public static $prefixesPsr0 = array (
+        'p' => 
+        array (
+            'phpDocumentor' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpdocumentor/graphviz/src',
+                1 => __DIR__ . '/..' . '/phpdocumentor/graphviz/tests/unit',
+            ),
+        ),
         'M' => 
         array (
             'Mockery' => 
@@ -437,6 +458,13 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
     );
 
     public static $classMap = array (
+        'App\\Admin\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Admin/Controllers/AuthController.php',
+        'App\\Admin\\Controllers\\AutoOrdersController' => __DIR__ . '/../..' . '/app/Admin/Controllers/AutoOrdersController.php',
+        'App\\Admin\\Controllers\\ExampleController' => __DIR__ . '/../..' . '/app/Admin/Controllers/ExampleController.php',
+        'App\\Admin\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Admin/Controllers/HomeController.php',
+        'App\\Admin\\Controllers\\HomeOrdersController' => __DIR__ . '/../..' . '/app/Admin/Controllers/HomeOrdersController.php',
+        'App\\Admin\\Controllers\\InsuranceController' => __DIR__ . '/../..' . '/app/Admin/Controllers/InsuranceController.php',
+        'App\\Admin\\Controllers\\UsersController' => __DIR__ . '/../..' . '/app/Admin/Controllers/UsersController.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
@@ -445,7 +473,12 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
+        'App\\Http\\Controllers\\AutoOrdersController' => __DIR__ . '/../..' . '/app/Http/Controllers/AutoOrdersController.php',
+        'App\\Http\\Controllers\\AutoPolicyController' => __DIR__ . '/../..' . '/app/Http/Controllers/AutoPolicyController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeOrdersController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeOrdersController.php',
+        'App\\Http\\Controllers\\HomePolicyController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomePolicyController.php',
+        'App\\Http\\Controllers\\InsuranceController' => __DIR__ . '/../..' . '/app/Http/Controllers/InsuranceController.php',
         'App\\Http\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
@@ -455,12 +488,34 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\AddHomePolicyRequest' => __DIR__ . '/../..' . '/app/Http/Requests/AddHomePolicyRequest.php',
+        'App\\Http\\Requests\\AutoOrderRequest' => __DIR__ . '/../..' . '/app/Http/Requests/AutoOrderRequest.php',
+        'App\\Http\\Requests\\AutoPolicyRequest' => __DIR__ . '/../..' . '/app/Http/Requests/AutoPolicyRequest.php',
+        'App\\Http\\Requests\\HomeOrderRequest' => __DIR__ . '/../..' . '/app/Http/Requests/HomeOrderRequest.php',
+        'App\\Http\\Requests\\Request' => __DIR__ . '/../..' . '/app/Http/Requests/Request.php',
+        'App\\Models\\AutoOrder' => __DIR__ . '/../..' . '/app/Models/AutoOrder.php',
+        'App\\Models\\AutoPolicy' => __DIR__ . '/../..' . '/app/Models/AutoPolicy.php',
+        'App\\Models\\AutoPolicyDriver' => __DIR__ . '/../..' . '/app/Models/AutoPolicyDriver.php',
+        'App\\Models\\Driver' => __DIR__ . '/../..' . '/app/Models/Driver.php',
+        'App\\Models\\HomeOrder' => __DIR__ . '/../..' . '/app/Models/HomeOrder.php',
+        'App\\Models\\HomePolicy' => __DIR__ . '/../..' . '/app/Models/HomePolicy.php',
+        'App\\Models\\Insurance' => __DIR__ . '/../..' . '/app/Models/Insurance.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Policies\\AutoPolicyPolicy' => __DIR__ . '/../..' . '/app/Policies/AutoPolicyPolicy.php',
+        'App\\Policies\\HomePolicyPolicy' => __DIR__ . '/../..' . '/app/Policies/HomePolicyPolicy.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'BeyondCode\\ErdGenerator\\Edge' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/Edge.php',
+        'BeyondCode\\ErdGenerator\\ErdGeneratorServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/ErdGeneratorServiceProvider.php',
+        'BeyondCode\\ErdGenerator\\GenerateDiagramCommand' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/GenerateDiagramCommand.php',
+        'BeyondCode\\ErdGenerator\\GraphBuilder' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/GraphBuilder.php',
+        'BeyondCode\\ErdGenerator\\Model' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/Model.php',
+        'BeyondCode\\ErdGenerator\\ModelFinder' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/ModelFinder.php',
+        'BeyondCode\\ErdGenerator\\ModelRelation' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/ModelRelation.php',
+        'BeyondCode\\ErdGenerator\\RelationFinder' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/RelationFinder.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
         'Carbon\\CarbonInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterface.php',
@@ -2684,6 +2739,9 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/Highlighter.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+        'Jxlwqq\\Quill\\Editor' => __DIR__ . '/..' . '/jxlwqq/quill/src/Editor.php',
+        'Jxlwqq\\Quill\\Quill' => __DIR__ . '/..' . '/jxlwqq/quill/src/Quill.php',
+        'Jxlwqq\\Quill\\QuillServiceProvider' => __DIR__ . '/..' . '/jxlwqq/quill/src/QuillServiceProvider.php',
         'Laravel\\Tinker\\ClassAliasAutoloader' => __DIR__ . '/..' . '/laravel/tinker/src/ClassAliasAutoloader.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
@@ -5006,6 +5064,11 @@ class ComposerStaticInit1c53c8f17ab58f0ef62aef78763609b6
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
+        'phpDocumentor\\GraphViz\\Attribute' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Attribute.php',
+        'phpDocumentor\\GraphViz\\Edge' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Edge.php',
+        'phpDocumentor\\GraphViz\\Exception' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Exception.php',
+        'phpDocumentor\\GraphViz\\Graph' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Graph.php',
+        'phpDocumentor\\GraphViz\\Node' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Node.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',

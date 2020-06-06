@@ -27,15 +27,21 @@
             {{ Auth::user()->name }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a href="{{ route('home_policy.index') }}" class="dropdown-item">Home Policies</a>
+              <a href="{{ route('auto_policy.index') }}" class="dropdown-item">Auto Policies</a>
+              <a href="{{ route('home_order.index') }}" class="dropdown-item">Home Orders</a>
+              <a href="{{ route('auto_order.index') }}" class="dropdown-item">Auto Orders</a>
             <a class="dropdown-item" id="logout" href="#"
                onclick="event.preventDefault();document.getElementById('logout-form').submit();">Logout</a>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
               {{ csrf_field() }}
             </form>
           </div>
+
         </li>
         @endguest
         <!-- End of Authentication Links -->
+
     </ul>
     </div>
   </div>
